@@ -1,2 +1,3 @@
-# swirly-swirls
-A particle system for my pygame stuff
+# Python Project Template
+
+Use this to clone new python projects from in github.
