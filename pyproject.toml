@@ -18,11 +18,7 @@ classifiers = [
 license = "MIT"
 license-files = ["LICENSE"]
 
-dependencies = [
-    "pygame-ce",
-    "pgcooldown",
-    "ddframework @ git+https://github.com/dickerdackel/ddframework",
-]
+dependencies = [ ]
 
 [project.scripts]
 FIXME = "package.module:main"
@@ -40,23 +36,6 @@ addopts = "-rA"
 testpaths = [
     "tests",
 ]
-
-[tool.ruff]
-ignore = [
-    # "ANN",
-    "E501",
-    "E701",
-    "E731",
-    "E741",
-    "I001",
-    "PLR2004",
-]
-line-length = 100
-
-[tool.ruff.lint.isort]
-force-sort-within-sections = false
-known-third-party = ["pygame", "numpy", "tinyecs", "patternegine", "pgcooldown", "rpeasings"]
-lines-between-types = 1
 
 [tool.cibuildwheel]
 # Don't build for pypy
