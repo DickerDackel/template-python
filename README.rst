@@ -1,18 +1,22 @@
-# FIXME project name
+FIXME project name
+==================
 
 tl;dr description here
 
-## Synopsis
+Synopsis
+--------
 
-```console
-example usage here...
-```
+.. code:: bash
 
-## Usage
+   example usage here...
+
+Usage
+-----
 
 Detailed usage and sample code for libraries, full help and options for tools.
 
-## Installation
+Installation
+------------
 
 Installation instructions + requirements (should come automagically with
 pyproject.toml)
@@ -21,9 +25,12 @@ pyproject.toml)
 sample install session
 ```
 
-## Support / Contributing
+Support / Contributing
+----------------------
 
-Issues can be opened on [github issues](hub issues: https://github.com/dickerdackel/FIXME/issues)
+Issues can be opened on `github issues`_
+
+.. _github issues: https://github.com/dickerdackel/FIXME/issues
 
 Please respect, that I don't want any contributions done with the assistance
 of AI.  This is a hobby project with focus on the craft of programming.  I
@@ -35,9 +42,8 @@ as a hobby is about challenging the brain, not about getting fast results.
 I have no possibility to enforce that request, the simple fact that I ask for
 it should be sufficient.
 
-## License
-
-FIXME
+License
+-------
 
 This software is provided under the MIT license.
 
