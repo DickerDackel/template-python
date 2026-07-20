@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'patternengine'
+project = 'FIXME'
 copyright = '2026, Michael "Dicker Dackel" Lamertz'
 author = 'Michael "Dicker Dackel" Lamertz'
-release = '0.0.7'
+release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -19,8 +19,6 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon',
-    'myst_parser',
 ]
 
 templates_path = ['_templates']
@@ -41,7 +39,5 @@ html_theme_options = {
         "color-api-name": "orange",
     }
 }
-
-autodoc_typehints = 'description'
 
 nitpicky = False
